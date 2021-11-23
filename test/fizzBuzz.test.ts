@@ -44,5 +44,8 @@ describe('FizzBuzz Tests', () => {
     it('should return FizzBuzz when sending 30', () => {
       expect(fizzBuzz(30)).toBe('FizzBuzz');
     });
+    it('should return FizzBuzz when sending 45', () => {
+      expect(fizzBuzz(45)).toBe('FizzBuzz');
+    });
   });
 });
