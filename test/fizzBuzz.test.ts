@@ -36,4 +36,10 @@ describe('FizzBuzz Tests', () => {
       expect(fizzBuzz(20)).toBe('Buzz');
     });
   });
+
+  describe('Special case for numbers divisible by 15 (3 and 5)', () => {
+    it('should return FizzBuzz when sending 15', () => {
+      expect(fizzBuzz(15)).toBe('FizzBuzz');
+    });
+  });
 });
