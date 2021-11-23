@@ -24,4 +24,10 @@ describe('FizzBuzz Tests', () => {
       expect(fizzBuzz(9)).toBe('Fizz');
     });
   });
+
+  describe('Special case for numbers divisible by 5', () => {
+    it('should return Buzz when sending 5', () => {
+      expect(fizzBuzz(5)).toBe('Buzz');
+    });
+  });
 });
