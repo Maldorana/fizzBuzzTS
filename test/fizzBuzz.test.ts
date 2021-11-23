@@ -8,5 +8,8 @@ describe('FizzBuzz Tests', () => {
     it('should return 2 when sending 2', () => {
       expect(fizzBuzz(2)).toBe('2');
     });
+    it('should return 4 when sending 4', () => {
+      expect(fizzBuzz(4)).toBe('4');
+    });
   });
 });
