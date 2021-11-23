@@ -12,4 +12,10 @@ describe('FizzBuzz Tests', () => {
       expect(fizzBuzz(4)).toBe('4');
     });
   });
+
+  describe('Special case for numbers divisible by 3', () => {
+    it('should return Fizz when sending 3', () => {
+      expect(fizzBuzz(3)).toBe('Fizz');
+    });
+  });
 });
