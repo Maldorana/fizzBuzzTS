@@ -29,5 +29,8 @@ describe('FizzBuzz Tests', () => {
     it('should return Buzz when sending 5', () => {
       expect(fizzBuzz(5)).toBe('Buzz');
     });
+    it('should return Buzz when sending 10', () => {
+      expect(fizzBuzz(10)).toBe('Buzz');
+    });
   });
 });
