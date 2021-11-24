@@ -1,5 +1,7 @@
 # FizzBuzz challenge
 
+### Instructions
+
 Write a program that takes a number as an argument, and returns the number as a string, but has 3 special cases:
 * If the number is divisible by 3, return the word "Fizz"
 * If the number is divisible by 5, return the word "Buzz"
